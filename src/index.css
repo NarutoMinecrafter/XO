@@ -1,13 +1,42 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: gray;
+}
+
+button {
+  all: unset;
+}
+
+.App {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  /* border: 10px solid black; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.xo {
+  width: 95%;
+  height: 95%;
+  border: 10px solid black;
+  border-radius: 5px;
+  font: 100px bold;
+}
+
+.newGame {
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+  background-color: #2f2f2f;
+  color: #fff;
+  font: 25px comic sans ms;
+  border: 5px solid black;
+  border-radius: 25px;
 }
